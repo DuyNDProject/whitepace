@@ -1,0 +1,223 @@
+@media (min-width: 0px) and (max-width: 425px) {
+    * {
+        max-width: 425px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 0 16px 32px 16px;
+    }
+
+    .btn__center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn__try-taskey {
+        margin: 0;
+    }
+
+    .btn__start-today {
+        margin: 0 auto;
+    }
+
+    .header__desktop {
+        display: none;
+    }
+
+    .header__mobile {
+        display: flex;
+        padding: 16px;
+    }
+
+    .section1 {
+        background-image: url(assets/bg-image-5.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 110%;
+        background-position: 0 -30px;
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 16px;
+        gap: 100px;
+    }
+
+    .section1__left {
+        text-align: center;
+    }
+
+    .section1__left--desktop {
+        display: none;
+    }
+
+    .section1__left--mobile {
+        display: block;
+    }
+
+    .section1__image {
+        background-color: #C4DEFD;
+        width: 286px;
+        height: 191px;
+    }
+
+    .section2-3 {
+        padding: 80px 16px;
+    }
+
+    .section2 {
+        background-image: url(assets/bg-image-6.svg);
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: -50px -10px;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .section2__image {
+        width: 286px;
+        height: 177px;
+    }
+
+    .section3 {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+
+    .section4 {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 16px;
+        gap: 60px;
+    }
+
+    .section4__image {
+        width: 284.5px;
+        height: 198.65px;
+    }
+
+    .section5 {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 16px;
+        gap: 60px;
+    }
+
+    .section5__image {
+        width: 288px;
+        height: 214.62px;
+    }
+
+    .section6 {
+        flex-direction: column;
+        padding: 80px 16px;
+        gap: 60px;
+    }
+
+    .section6__price-list--desktop {
+        display: none;
+    }
+
+    .section6__price-list--mobile {
+        display: block;
+    }
+
+    .price-list__personal {
+        display: inline-block;
+        padding: 50px 20px;
+    }
+
+    .personal__price {
+        color: #FEFEFE;
+    }
+
+    .personal__description {
+        white-space: nowrap;
+    }
+
+    .personal__content-list li {
+        margin-bottom: 30px;
+    }
+
+    .section7 {
+        text-align: start;
+        padding: 100px 16px;
+    }
+
+    .section8 {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 80px 16px;
+        gap: 100px;
+    }
+
+    .section9 {
+        padding: 0;
+    }
+
+    .section9__logo {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .section10 {
+        background-image: url(assets/bg-image-7.svg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: 5px -140px;
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 16px;
+        gap: 100px;
+    }
+
+    .section11 {
+        flex-direction: column;
+        padding: 100px 16px;
+    }
+
+    .section11__card--desktop {
+        display: none;
+    }
+
+    .section11__card--mobile {
+        display: flex;
+        margin: 100px 0;
+    }
+
+    .section12 {
+        text-align: start;
+        padding: 100px 16px;
+    }
+
+    .section12__title,
+    .section12 .btn__try-taskey-free,
+    .section12__description,
+    .section12__logo {
+        margin: 50px 0;
+    }
+
+    .footer__section1 {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer__section2 {
+        flex-direction: column;
+        border-top: none;
+        padding: 0;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .footer__nav ul {
+        flex-direction: column;
+        border-bottom: 1px solid #2e4e73;
+    }
+
+    .footer__whitepace .whitepace-logo {
+        margin: 0 auto;
+    }
+}
